@@ -8,6 +8,7 @@ M.default = {
   bg_dark = "#1f2335",
   bg = "#24283b",
   bg_highlight = "#292e42",
+  bg_highlight_2 = "#1F212D",
   terminal_black = "#414868",
   fg = "#c0caf5",
   fg_dark = "#a9b1d6",
@@ -131,7 +132,7 @@ function M.setup(opts)
   -- configure statusline to be either darker or lighter colour
   colors.bg_statusline = config.options.styles.statusline == "transparent" and colors.none
     or config.options.styles.statusline == "dark" and colors.bg_dark
-    or config.options.styles.stausline == "light" and colors.bg_highlight
+    or config.options.styles.stausline == "light" and colors.bg_highlight_2
     or colors.bg_dark
 
   -- Sidebar and Floats are configurable
