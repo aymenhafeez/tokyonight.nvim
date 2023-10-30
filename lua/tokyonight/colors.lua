@@ -55,6 +55,7 @@ M.moon = function()
     bg_dark = "#1e2030", --
     bg = "#222436", --
     bg_highlight = "#2f334d", --
+    bg_highlight_2 = "#2f334d", --
     terminal_black = "#444a73", --
     fg = "#c8d3f5", --
     fg_dark = "#828bb8", --
@@ -132,7 +133,7 @@ function M.setup(opts)
   -- configure statusline to be either darker or lighter colour
   colors.bg_statusline = config.options.styles.statusline == "transparent" and colors.none
     or config.options.styles.statusline == "dark" and colors.bg_dark
-    or config.options.styles.stausline == "light" and colors.bg_highlight_2
+    or config.options.styles.stausline == "light" and colors.bg_highlight_2 or colors.bg_statusline
     or colors.bg_dark
 
   -- Sidebar and Floats are configurable
