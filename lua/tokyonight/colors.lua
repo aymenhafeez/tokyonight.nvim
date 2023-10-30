@@ -131,7 +131,7 @@ function M.setup(opts)
   -- configure statusline to be either darker or lighter colour
   colors.bg_statusline = config.options.styles.statusline == "transparent" and colors.none
     or config.options.styles.statusline == "dark" and colors.bg_dark
-    or config.options.styles.stausline == "light" and colors.bg_highlight
+    or config.options.styles.stausline == "light" and colors.comment
     or colors.bg_dark
 
   -- Sidebar and Floats are configurable
