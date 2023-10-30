@@ -428,6 +428,7 @@ function M.setup()
     NeoTreeNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
     NeoTreeNormalNC = { fg = c.fg_sidebar, bg = c.bg_sidebar },
     NeoTreeDimText = { fg = c.fg_gutter },
+    NeoTreeWinSeparator = { fg = c.bg, bg = c.bg },
 
     -- Fern
     FernBranchText = { fg = c.blue },
@@ -671,7 +672,7 @@ function M.setup()
     MiniCursorword = { bg = c.fg_gutter },
     MiniCursorwordCurrent = { bg = c.fg_gutter },
 
-    MiniIndentscopeSymbol = { fg = c.blue1, nocombine = true },
+    MiniIndentscopeSymbol = { fg = c.comment, nocombine = true },
     MiniIndentscopePrefix = { nocombine = true }, -- Make it invisible
 
     MiniJump = { bg = c.magenta2, fg = "#ffffff" },
