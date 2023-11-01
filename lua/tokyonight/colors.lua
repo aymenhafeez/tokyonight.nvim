@@ -8,7 +8,6 @@ M.default = {
   bg_dark = "#1f2335",
   bg = "#24283b",
   bg_highlight = "#292e42",
-  -- bg_highlight_2 = "#1F202E",
   bg_highlight_2 = util.darken("#292e42", 0.7),
   terminal_black = "#414868",
   fg = "#c0caf5",
@@ -46,7 +45,8 @@ M.default = {
 
 M.night = {
   bg = "#1a1b26",
-  bg_dark = "#16161e",
+  bg_dark_dark = "#16161e",
+  bg_dark = util.lighten(#"16161e", 0.95)
 }
 M.day = M.night
 
