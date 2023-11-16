@@ -494,7 +494,7 @@ function M.setup()
     healthWarning = { fg = c.warning },
 
     -- BufferLine
-    BufferLineIndicatorSelected = { fg = c.git.change },
+    -- BufferLineIndicatorSelected = { fg = c.git.change },
 
     -- Barbar
     BufferCurrent = { bg = c.bg, fg = c.fg },
