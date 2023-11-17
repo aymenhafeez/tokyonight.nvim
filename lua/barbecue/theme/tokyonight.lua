@@ -1,7 +1,7 @@
 local c = require("tokyonight.colors").setup({ transform = true })
 
 local M = {
-  normal = { bg = c.none, fg = c.fg_dark },
+  normal = { bg = c.none, fg = c.comment },
 
   ellipsis = { fg = c.dark5 },
   separator = { fg = c.dark5 },
