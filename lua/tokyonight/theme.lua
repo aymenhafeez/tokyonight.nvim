@@ -600,7 +600,7 @@ function M.setup()
 
     -- navic
     NavicSeparator = { fg = c.fg, bg = c.none },
-    NavicText = { fg = c.fg, bg = c.none },
+    NavicText = { fg = c.comment, bg = c.none },
 
     AerialNormal = { fg = c.fg, bg = c.none },
     AerialGuide = { fg = c.fg_gutter },
