@@ -6,6 +6,7 @@ local M = {}
 M.default = {
   none = "NONE",
   bg_dark = "#1f2335",
+  bg_dark_2 = "#181821",
   bg = "#24283b",
   bg_highlight = "#292e42",
   bg_highlight_2 = util.darken("#292e42", 0.7),
@@ -140,6 +141,7 @@ function M.setup(opts)
   -- Sidebar and Floats are configurable
   colors.bg_sidebar = config.options.styles.sidebars == "transparent" and colors.none
     or config.options.styles.sidebars == "dark" and colors.bg_dark
+    or config.options.styles.sidebars == "light" and colors.bg_dark_2 or colors.bg_dark
     or colors.bg
 
   colors.bg_float = config.options.styles.floats == "transparent" and colors.none
