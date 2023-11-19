@@ -6,7 +6,7 @@ local M = {}
 M.default = {
   none = "NONE",
   bg_dark = "#1f2335",
-  bg_dark_2 = "#181821",
+  bg_dark_2 = "#16161e",
   bg = "#24283b",
   bg_highlight = "#292e42",
   bg_highlight_2 = util.darken("#292e42", 0.7),
@@ -47,7 +47,8 @@ M.default = {
 M.night = {
   bg = "#1a1b26",
   bg_dark = "#16161e",
-  bg_dark_2 = "#181821",
+  bg_dark_2 = "#16161e",
+  -- bg_dark_2 = "#181821",
 }
 M.day = M.night
 
@@ -55,6 +56,7 @@ M.moon = function()
   local ret = {
     none = "NONE",
     bg_dark = "#1e2030", --
+    bg_dark_2 = "#1e2030", --
     bg = "#222436", --
     bg_highlight = "#2f334d", --
     bg_highlight_2 = "#2f334d", --
@@ -141,7 +143,7 @@ function M.setup(opts)
   -- Sidebar and Floats are configurable
   colors.bg_sidebar = config.options.styles.sidebars == "transparent" and colors.none
     or config.options.styles.sidebars == "dark" and colors.bg_dark
-    or config.options.styles.sidebars == "light" and colors.bg_dark_2 or colors.bg_dark
+    or config.options.styles.sidebars == "light" and colors.bg_dark_2
     or colors.bg
 
   colors.bg_float = config.options.styles.floats == "transparent" and colors.none
