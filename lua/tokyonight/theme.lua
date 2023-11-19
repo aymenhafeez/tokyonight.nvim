@@ -464,7 +464,7 @@ function M.setup()
     WhichKeyDesc = { fg = c.magenta },
     WhichKeySeperator = { fg = c.comment },
     WhichKeySeparator = { fg = c.comment },
-    WhichKeyFloat = { bg = c.bg_float },
+    WhichKeyFloat = { bg = c.bg_sidebar },
     WhichKeyValue = { fg = c.dark5 },
 
     -- LspSaga
