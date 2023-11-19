@@ -35,7 +35,7 @@ function M.setup()
     lCursor = { fg = c.bg, bg = c.fg }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
     CursorIM = { fg = c.bg, bg = c.fg }, -- like Cursor, but used when in IME mode |CursorIM|
     CursorColumn = { bg = c.bg_highlight }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
-    CursorLine = { bg = c.bg_highlight }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
+    CursorLine = { bg = c.bg_highlight_2 }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
     Directory = { fg = c.blue }, -- directory names (and other special names in listings)
     DiffAdd = { bg = c.diff.add }, -- diff mode: Added line |diff.txt|
     DiffChange = { bg = c.diff.change }, -- diff mode: Changed line |diff.txt|
@@ -423,12 +423,13 @@ function M.setup()
     NvimTreeImageFile = { fg = c.fg_sidebar },
     NvimTreeSymlink = { fg = c.blue },
     NvimTreeFolderIcon = { bg = c.none, fg = c.blue },
-    -- NvimTreeFolderName= { fg = c.fg_float },
+    -- NvimTreeFolderName = { fg = c.fg_float },
 
     NeoTreeNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
     NeoTreeNormalNC = { fg = c.fg_sidebar, bg = c.bg_sidebar },
     NeoTreeDimText = { fg = c.fg_gutter },
     NeoTreeWinSeparator = { fg = c.bg, bg = c.bg },
+    NeoTreeCursorLine = { bg = c.bg_highlight_2 },
 
     -- Fern
     FernBranchText = { fg = c.blue },
