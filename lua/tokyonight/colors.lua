@@ -128,7 +128,7 @@ function M.setup(opts)
   colors.git.ignore = colors.dark3
   colors.black = util.darken(colors.bg, 0.8, "#000000")
   -- colors.border_highlight = util.darken(colors.blue1, 0.8)
-  colors.border_highlight = colors.bg_dark_2
+  colors.border_highlight = colors.black
   colors.border = colors.black
 
   colors.bg_popup = colors.bg_dark
