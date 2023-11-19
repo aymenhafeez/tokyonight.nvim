@@ -578,10 +578,8 @@ function M.setup()
 
     -- Cmp
     CmpDocumentation = { fg = c.fg, bg = c.bg_float },
-    -- CmpBorder = { fg = c.border_highlight, bg = c.bg_float },
-    CmpBorder = { fg = c.bg_float, bg = c.bg_float },
-    -- CmpDocumentationBorder = { fg = c.border_highlight, bg = c.bg_float },
-    CmpDocumentationBorder = { fg = c.bg_float, bg = c.bg_float },
+    CmpBorder = { fg = c.border_highlight, bg = c.bg_float },
+    CmpDocumentationBorder = { fg = c.border_highlight, bg = c.bg_float },
     CmpGhostText = { fg = c.terminal_black },
 
     CmpItemAbbr = { fg = c.fg, bg = c.none },
