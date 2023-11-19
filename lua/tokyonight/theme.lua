@@ -428,8 +428,7 @@ function M.setup()
     NeoTreeNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
     NeoTreeNormalNC = { fg = c.fg_sidebar, bg = c.bg_sidebar },
     NeoTreeDimText = { fg = c.fg_gutter },
-    -- NeoTreeWinSeparator = { fg = c.bg, bg = c.bg },
-    NeoTreeWinSeparator = { fg = c.bg_sidebar, bg = c.bg_sidebar },
+    NeoTreeWinSeparator = { fg = c.bg, bg = c.bg },
     NeoTreeCursorLine = { bg = c.bg_highlight_2 },
 
     -- Fern
