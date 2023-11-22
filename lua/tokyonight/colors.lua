@@ -131,7 +131,6 @@ function M.setup(opts)
   colors.border = colors.black
 
   colors.bg_popup = colors.bg_dark
-  -- colors.bg_statusline = colors.bg_dark
 
   -- configure statusline to be either darker or lighter colour
   colors.bg_statusline = config.options.styles.statusline == "transparent" and colors.none
