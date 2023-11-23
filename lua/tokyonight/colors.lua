@@ -14,6 +14,7 @@ M.default = {
   fg = "#c0caf5",
   fg_dark = "#a9b1d6",
   fg_gutter = "#3b4261",
+  doc_hl = "#343A55",
   dark3 = "#545c7e",
   comment = "#565f89",
   dark5 = "#737aa2",
